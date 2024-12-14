@@ -15,5 +15,8 @@ div {
     border-color: rgb(6, 5, 5);
     border-width: 6px;
     border-style: solid;
+    
+    display: inline-flex;
+    
 
 }
