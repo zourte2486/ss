@@ -16,7 +16,8 @@ div {
     border-width: 6px;
     border-style: solid;
     
-    display: inline-flex;
+    display: flex;
+
     
 
 }
