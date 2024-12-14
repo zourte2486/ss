@@ -1,0 +1,19 @@
+div {
+    /* background-image: url("/R.jpg");
+    background-repeat: no-repeat;
+    background-color: #4cd551;
+    
+    background-position: top;
+    background-size:cover;
+
+    background: fixed rgb(157, 11, 11) url("/R.jpg"); */
+
+    /* padding: 8px 12px; */
+    margin: 30px;
+
+
+    border-color: rgb(6, 5, 5);
+    border-width: 6px;
+    border-style: solid;
+
+}
