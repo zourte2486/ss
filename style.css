@@ -1,25 +1,12 @@
-div {
-    /* background-image: url("/R.jpg");
-    background-repeat: no-repeat;
-    background-color: #4cd551;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+div{
+    display:inline-block;
+    background-color: rgb(212, 153, 153);
+    padding: 10px;
+    margin: 20px;
     
-    background-position: top;
-    background-size:cover;
-
-    background: fixed rgb(157, 11, 11) url("/R.jpg"); */
-
-    /* padding: 8px 12px; */
-    margin: 30px;
-
-
-    border-color: rgb(6, 5, 5);
-    border-width: 6px;
-    border-style: solid;
     
-    display: flex;
-
-    outline-style: ;
-
-    
-
 }
