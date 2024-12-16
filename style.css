@@ -1,13 +1,21 @@
-nav a {
-    display: inline;
-    background-color: rgba(56, 196, 14, 0.64);
-    color: black;
-    padding: 5px 10px;
-    border: 0.1px solid rgb(26, 7, 37);
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: capitalize;
-    align-items: right;
+div nav a {
+  display: inline;
+  background-color: rgba(223, 61, 61, 0.64);
+  color: black;
+  padding: 5px 10px;
+  border: 0.1px solid rgb(26, 7, 37);
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 3px #6666538a;
+}
+
+div p {
+  text-shadow: 0px 1px 3px #6666538a;
+  letter-spacing: 0.7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 /* body {
