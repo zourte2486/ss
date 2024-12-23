@@ -1,21 +1,30 @@
-.conteneur {
-  padding: 20px;
-  border: 1px solid rgb(0, 0, 0);
-  height: 1000px;
+body{
+  height: 5000px;
+
 }
 
 .box1 {
-     background-color: purple;
-     height: 800px;
-     width: 800px;
-     position: relative;
-     /* right: 10px; */
-     top: 50px;
-     /* right: 50px; */
+  background-color: purple;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 600px;
 }
+
 .box2 {
-  background-color: rgb(255, 0, 0);
-  height: 400px;
-  width: 400px;
-  postion
+  background-color: rgb(108, 16, 245);
+  height: 100px;
+  margin-left: 20px;
+  width: 100px;
+  
 }
+
+.box3 {
+  background-color: rgb(245, 16, 138);
+  height: 100px;
+  margin-left: 20px;
+  width: 100px;
+  
+  list-style: none ;
+}
+
