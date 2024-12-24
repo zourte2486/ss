@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Home</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.featured-products, .product-details, .cart-items, .checkout-form {
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our eCommerce Store</h1>
+  </header>
+  <section class="featured-products">
+    <div class="product">
+      <img src="assets/images/product1.jpg" alt="Product Image">
+      <h3>Product Name</h3>
+      <p>$100</p>
+      <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -11,35 +11,42 @@
         text-decoration: none;
         padding: 10px;
         border: 1px solid black;
-        border-radius: 20px;
-        background-color: purple;
+        border-radius: 16px 187px 18px 200px;
+        background-color: #ffc300;
         color: white;
+       
+      }
+      .parallax__title {
+        pointer-events: auto;
+        text-align: center;
+        text-transform: none;
+        margin-top: 0;
+        margin-bottom: 0.1em;
+        margin-right: 0.075em;
+        font-family: PP Neue Corp Wide, sans-serif;
+        font-size: 11vw;
+        font-weight: 800;
+        line-height: 1;
+        position: relative;
       }
 
       button:hover {
         position: relative;
         left: 10px;
         bottom: 10px;
-        background: linear-gradient(
-          90deg,
-          rgb(109, 109, 109) 0%,
-          rgb(0, 0, 0) 0%,
-          rgb(9, 14, 16) 95%
-        );
+        background: #3f330a;
         cursor: pointer;
       }
 
-      h1:nth-child(3n){
+      h1:nth-child(3n) {
         color: rgb(42, 84, 84);
       }
-
-
     </style>
   </head>
 
   <body>
     <h3>Anchor Tag Hovering</h3>
+    <h2 class="parallax__title">ziko</h2>
     <button class="button">Log in</button>
-
   </body>
 </html>
