@@ -2,51 +2,46 @@
 <html lang="en">
   <head>
     <style>
+      :root {
+        --mainPadding: 30px;
+        --mainColor: red;
+      }
       body {
         position: relative;
         top: 100px;
+        left: 100px;
       }
-
       button {
         text-decoration: none;
-        padding: 10px;
+        padding: 20px 40px;
         border: 1px solid black;
         border-radius: 16px 187px 18px 200px;
         background-color: #ffc300;
         color: white;
-       
-      }
-      .parallax__title {
-        pointer-events: auto;
-        text-align: center;
-        text-transform: none;
-        margin-top: 0;
-        margin-bottom: 0.1em;
-        margin-right: 0.075em;
-        font-family: PP Neue Corp Wide, sans-serif;
-        font-size: 11vw;
-        font-weight: 800;
-        line-height: 1;
-        position: relative;
+        font-size: var(--mainPadding);
+        font-weight: bold;
+        transition-duration: 0.5s;
+        transition-delay: 0.5s;
+        transition-property: bottom;
       }
 
       button:hover {
         position: relative;
         left: 10px;
         bottom: 10px;
-        background: #3f330a;
-        cursor: pointer;
-      }
-
-      h1:nth-child(3n) {
-        color: rgb(42, 84, 84);
+        background: #070602;
+        cursor: progress;
       }
     </style>
   </head>
 
   <body>
-    <h3>Anchor Tag Hovering</h3>
-    <h2 class="parallax__title">ziko</h2>
-    <button class="button">Log in</button>
+    <div class="flex">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three</div>
+      <div>Four</div>
+      <div>Five</div>
+    </div>
   </body>
 </html>
