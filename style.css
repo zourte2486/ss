@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+        "Element1 Element2 Element3"
+        "Element4 Element5 Element6";
+    gap: 10px 10px;
+}
+
+.parent div {
+    background-color: rgb(74, 36, 36);
+}
+
+.e1{
+    grid-area: Element1;
+}   
+.e2{
+    grid-area: Element2;
+}
+.e3{
+    grid-area: Element3;
+}
+.e4{
+    grid-area: Element4;
+}
+.e5{
+    grid-area: Element5;
+}
+.e6{
+    grid-area: Element6;
+}
+
